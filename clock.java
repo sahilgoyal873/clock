@@ -102,7 +102,7 @@ class Hands extends ClockDesign {
         if(new Date().getSeconds()>=15)
         sec_angle = (double)((new Date().getSeconds()-15)*6);
         else
-        sec_angle = (double)(360-(new Date().getSeconds())*6);
+        sec_angle = (double)(270+(new Date().getSeconds())*6);
        
         System.out.println(sec_angle);
         
@@ -112,7 +112,7 @@ class Hands extends ClockDesign {
         if(new Date().getMinutes()>=15)
         min_angle = (double)((new Date().getMinutes()-15)*6);
         else
-        min_angle = (double)(360-(new Date().getMinutes())*6);
+        min_angle = (double)(270+(new Date().getMinutes())*6);
         
         System.out.println(min_angle);
         
